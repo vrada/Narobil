@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08EF549EF201D747814527F6 /* Pods_narobilTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F256B11596A96B27DFF5E66D /* Pods_narobilTests.framework */; };
+		11886D75D74CEB0D99257566 /* Pods_narobil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51013C168AB575C1F4160B02 /* Pods_narobil.framework */; };
+		2484B2AEED036F038CEF6CEC /* Pods_narobil_narobilUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B593D94072B5A1EB53D7BF4E /* Pods_narobil_narobilUITests.framework */; };
+		CE04F6AE23E7F9960071F3AB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04F6AD23E7F9960071F3AB /* RegisterViewController.swift */; };
+		CE04F6BF23E80BF50071F3AB /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE04F6B523E80BF50071F3AB /* Rubik-BoldItalic.ttf */; };
+		CE04F6C023E80BF50071F3AB /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE04F6B623E80BF50071F3AB /* Rubik-Regular.ttf */; };
+		CE04F6C123E80BF50071F3AB /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE04F6B723E80BF50071F3AB /* Rubik-Italic.ttf */; };
+		CE04F6C223E80BF50071F3AB /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE04F6B823E80BF50071F3AB /* Rubik-LightItalic.ttf */; };
+		CE04F6C323E80BF50071F3AB /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE04F6B923E80BF50071F3AB /* Rubik-Light.ttf */; };
+		CE04F6C423E80BF50071F3AB /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE04F6BA23E80BF50071F3AB /* Rubik-Bold.ttf */; };
+		CE04F6C523E80BF50071F3AB /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE04F6BB23E80BF50071F3AB /* Rubik-BlackItalic.ttf */; };
+		CE04F6C623E80BF50071F3AB /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE04F6BC23E80BF50071F3AB /* Rubik-Black.ttf */; };
+		CE04F6C723E80BF50071F3AB /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE04F6BD23E80BF50071F3AB /* Rubik-Medium.ttf */; };
+		CE04F6C823E80BF50071F3AB /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE04F6BE23E80BF50071F3AB /* Rubik-MediumItalic.ttf */; };
+		CE04F6CA23E80C5F0071F3AB /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04F6C923E80C5F0071F3AB /* UILabel+Extensions.swift */; };
+		CE04F6CC23E80CA20071F3AB /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04F6CB23E80CA20071F3AB /* UIFont+Extensions.swift */; };
+		CE04F6CF23E8262A0071F3AB /* ConfrimAkunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04F6CD23E8262A0071F3AB /* ConfrimAkunViewController.swift */; };
+		CE04F6D523E83E2C0071F3AB /* ForgetPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04F6D423E83E2C0071F3AB /* ForgetPassViewController.swift */; };
+		CE04F6D723E860200071F3AB /* SendEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04F6D623E860200071F3AB /* SendEmailViewController.swift */; };
+		CE78679C23E700F900F04F5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78679B23E700F900F04F5C /* AppDelegate.swift */; };
+		CE78679E23E700F900F04F5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78679D23E700F900F04F5C /* ViewController.swift */; };
+		CE7867A423E700F900F04F5C /* narobil.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE7867A223E700F900F04F5C /* narobil.xcdatamodeld */; };
+		CE7867A623E700FB00F04F5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7867A523E700FB00F04F5C /* Assets.xcassets */; };
+		CE7867A923E700FB00F04F5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7867A723E700FB00F04F5C /* LaunchScreen.storyboard */; };
+		CE7867B423E700FB00F04F5C /* narobilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7867B323E700FB00F04F5C /* narobilTests.swift */; };
+		CE7867BF23E700FB00F04F5C /* narobilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7867BE23E700FB00F04F5C /* narobilUITests.swift */; };
+		CE7867CD23E7039B00F04F5C /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7867CC23E7039B00F04F5C /* OnboardingViewController.swift */; };
+		CE7867CF23E7040500F04F5C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7867CE23E7040500F04F5C /* LoginViewController.swift */; };
+		CE7867D223E7049C00F04F5C /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7867D123E7049C00F04F5C /* UIColor+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE7867B023E700FB00F04F5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE78679023E700F900F04F5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE78679723E700F900F04F5C;
+			remoteInfo = narobil;
+		};
+		CE7867BB23E700FB00F04F5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE78679023E700F900F04F5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE78679723E700F900F04F5C;
+			remoteInfo = narobil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51013C168AB575C1F4160B02 /* Pods_narobil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_narobil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		515898B08314354BBCDCFF35 /* Pods-narobilTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-narobilTests.release.xcconfig"; path = "Target Support Files/Pods-narobilTests/Pods-narobilTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AC3864644D24A3EAABCDCEC /* Pods-narobilTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-narobilTests.debug.xcconfig"; path = "Target Support Files/Pods-narobilTests/Pods-narobilTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D3C70AD7AE085411CC1DE30 /* Pods-narobil-narobilUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-narobil-narobilUITests.release.xcconfig"; path = "Target Support Files/Pods-narobil-narobilUITests/Pods-narobil-narobilUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84852431E1F6428F155C3B70 /* Pods-narobil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-narobil.debug.xcconfig"; path = "Target Support Files/Pods-narobil/Pods-narobil.debug.xcconfig"; sourceTree = "<group>"; };
+		8519BC7A11B6EF29C00A0A6B /* Pods-narobil-narobilUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-narobil-narobilUITests.debug.xcconfig"; path = "Target Support Files/Pods-narobil-narobilUITests/Pods-narobil-narobilUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B593D94072B5A1EB53D7BF4E /* Pods_narobil_narobilUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_narobil_narobilUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C0E1629BDDF67ECD0F1243 /* Pods-narobil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-narobil.release.xcconfig"; path = "Target Support Files/Pods-narobil/Pods-narobil.release.xcconfig"; sourceTree = "<group>"; };
+		CE04F6AD23E7F9960071F3AB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CE04F6B523E80BF50071F3AB /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE04F6B623E80BF50071F3AB /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		CE04F6B723E80BF50071F3AB /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		CE04F6B823E80BF50071F3AB /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		CE04F6B923E80BF50071F3AB /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		CE04F6BA23E80BF50071F3AB /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		CE04F6BB23E80BF50071F3AB /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CE04F6BC23E80BF50071F3AB /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		CE04F6BD23E80BF50071F3AB /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		CE04F6BE23E80BF50071F3AB /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CE04F6C923E80C5F0071F3AB /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		CE04F6CB23E80CA20071F3AB /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		CE04F6CD23E8262A0071F3AB /* ConfrimAkunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfrimAkunViewController.swift; sourceTree = "<group>"; };
+		CE04F6D423E83E2C0071F3AB /* ForgetPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassViewController.swift; sourceTree = "<group>"; };
+		CE04F6D623E860200071F3AB /* SendEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendEmailViewController.swift; sourceTree = "<group>"; };
+		CE78679823E700F900F04F5C /* narobil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = narobil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE78679B23E700F900F04F5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE78679D23E700F900F04F5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE7867A323E700F900F04F5C /* narobil.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = narobil.xcdatamodel; sourceTree = "<group>"; };
+		CE7867A523E700FB00F04F5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE7867A823E700FB00F04F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE7867AA23E700FB00F04F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7867AF23E700FB00F04F5C /* narobilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = narobilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7867B323E700FB00F04F5C /* narobilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = narobilTests.swift; sourceTree = "<group>"; };
+		CE7867B523E700FB00F04F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7867BA23E700FB00F04F5C /* narobilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = narobilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7867BE23E700FB00F04F5C /* narobilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = narobilUITests.swift; sourceTree = "<group>"; };
+		CE7867C023E700FB00F04F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7867CC23E7039B00F04F5C /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		CE7867CE23E7040500F04F5C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE7867D123E7049C00F04F5C /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		F256B11596A96B27DFF5E66D /* Pods_narobilTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_narobilTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE78679523E700F900F04F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11886D75D74CEB0D99257566 /* Pods_narobil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7867AC23E700FB00F04F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EF549EF201D747814527F6 /* Pods_narobilTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7867B723E700FB00F04F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2484B2AEED036F038CEF6CEC /* Pods_narobil_narobilUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46AE6E9C530604BEA61037AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84852431E1F6428F155C3B70 /* Pods-narobil.debug.xcconfig */,
+				B6C0E1629BDDF67ECD0F1243 /* Pods-narobil.release.xcconfig */,
+				8519BC7A11B6EF29C00A0A6B /* Pods-narobil-narobilUITests.debug.xcconfig */,
+				7D3C70AD7AE085411CC1DE30 /* Pods-narobil-narobilUITests.release.xcconfig */,
+				7AC3864644D24A3EAABCDCEC /* Pods-narobilTests.debug.xcconfig */,
+				515898B08314354BBCDCFF35 /* Pods-narobilTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE04F6B323E80BBB0071F3AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE04F6B423E80BC90071F3AB /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE04F6B423E80BC90071F3AB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE04F6BC23E80BF50071F3AB /* Rubik-Black.ttf */,
+				CE04F6BB23E80BF50071F3AB /* Rubik-BlackItalic.ttf */,
+				CE04F6BA23E80BF50071F3AB /* Rubik-Bold.ttf */,
+				CE04F6B523E80BF50071F3AB /* Rubik-BoldItalic.ttf */,
+				CE04F6B723E80BF50071F3AB /* Rubik-Italic.ttf */,
+				CE04F6B923E80BF50071F3AB /* Rubik-Light.ttf */,
+				CE04F6B823E80BF50071F3AB /* Rubik-LightItalic.ttf */,
+				CE04F6BD23E80BF50071F3AB /* Rubik-Medium.ttf */,
+				CE04F6BE23E80BF50071F3AB /* Rubik-MediumItalic.ttf */,
+				CE04F6B623E80BF50071F3AB /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CE78678F23E700F900F04F5C = {
+			isa = PBXGroup;
+			children = (
+				CE78679A23E700F900F04F5C /* narobil */,
+				CE7867B223E700FB00F04F5C /* narobilTests */,
+				CE7867BD23E700FB00F04F5C /* narobilUITests */,
+				CE78679923E700F900F04F5C /* Products */,
+				46AE6E9C530604BEA61037AF /* Pods */,
+				F549CE252161C2A01C4C72D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE78679923E700F900F04F5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE78679823E700F900F04F5C /* narobil.app */,
+				CE7867AF23E700FB00F04F5C /* narobilTests.xctest */,
+				CE7867BA23E700FB00F04F5C /* narobilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE78679A23E700F900F04F5C /* narobil */ = {
+			isa = PBXGroup;
+			children = (
+				CE04F6B323E80BBB0071F3AB /* Resources */,
+				CE7867D023E7044B00F04F5C /* extanstion */,
+				CE78679B23E700F900F04F5C /* AppDelegate.swift */,
+				CE78679D23E700F900F04F5C /* ViewController.swift */,
+				CE7867A523E700FB00F04F5C /* Assets.xcassets */,
+				CE7867A723E700FB00F04F5C /* LaunchScreen.storyboard */,
+				CE7867AA23E700FB00F04F5C /* Info.plist */,
+				CE7867A223E700F900F04F5C /* narobil.xcdatamodeld */,
+				CE7867CC23E7039B00F04F5C /* OnboardingViewController.swift */,
+				CE7867CE23E7040500F04F5C /* LoginViewController.swift */,
+				CE04F6AD23E7F9960071F3AB /* RegisterViewController.swift */,
+				CE04F6CD23E8262A0071F3AB /* ConfrimAkunViewController.swift */,
+				CE04F6D423E83E2C0071F3AB /* ForgetPassViewController.swift */,
+				CE04F6D623E860200071F3AB /* SendEmailViewController.swift */,
+			);
+			path = narobil;
+			sourceTree = "<group>";
+		};
+		CE7867B223E700FB00F04F5C /* narobilTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7867B323E700FB00F04F5C /* narobilTests.swift */,
+				CE7867B523E700FB00F04F5C /* Info.plist */,
+			);
+			path = narobilTests;
+			sourceTree = "<group>";
+		};
+		CE7867BD23E700FB00F04F5C /* narobilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7867BE23E700FB00F04F5C /* narobilUITests.swift */,
+				CE7867C023E700FB00F04F5C /* Info.plist */,
+			);
+			path = narobilUITests;
+			sourceTree = "<group>";
+		};
+		CE7867D023E7044B00F04F5C /* extanstion */ = {
+			isa = PBXGroup;
+			children = (
+				CE7867D123E7049C00F04F5C /* UIColor+Extensions.swift */,
+				CE04F6C923E80C5F0071F3AB /* UILabel+Extensions.swift */,
+				CE04F6CB23E80CA20071F3AB /* UIFont+Extensions.swift */,
+			);
+			path = extanstion;
+			sourceTree = "<group>";
+		};
+		F549CE252161C2A01C4C72D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51013C168AB575C1F4160B02 /* Pods_narobil.framework */,
+				B593D94072B5A1EB53D7BF4E /* Pods_narobil_narobilUITests.framework */,
+				F256B11596A96B27DFF5E66D /* Pods_narobilTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE78679723E700F900F04F5C /* narobil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7867C323E700FB00F04F5C /* Build configuration list for PBXNativeTarget "narobil" */;
+			buildPhases = (
+				6B9B7C0D2CA9707C99A1A430 /* [CP] Check Pods Manifest.lock */,
+				CE78679423E700F900F04F5C /* Sources */,
+				CE78679523E700F900F04F5C /* Frameworks */,
+				CE78679623E700F900F04F5C /* Resources */,
+				7974E2F501EAC7C417415F15 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = narobil;
+			productName = narobil;
+			productReference = CE78679823E700F900F04F5C /* narobil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE7867AE23E700FB00F04F5C /* narobilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7867C623E700FB00F04F5C /* Build configuration list for PBXNativeTarget "narobilTests" */;
+			buildPhases = (
+				81ED02B174D06FB1DC79E65E /* [CP] Check Pods Manifest.lock */,
+				CE7867AB23E700FB00F04F5C /* Sources */,
+				CE7867AC23E700FB00F04F5C /* Frameworks */,
+				CE7867AD23E700FB00F04F5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7867B123E700FB00F04F5C /* PBXTargetDependency */,
+			);
+			name = narobilTests;
+			productName = narobilTests;
+			productReference = CE7867AF23E700FB00F04F5C /* narobilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE7867B923E700FB00F04F5C /* narobilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7867C923E700FB00F04F5C /* Build configuration list for PBXNativeTarget "narobilUITests" */;
+			buildPhases = (
+				0DEF9762F80D217211D368B9 /* [CP] Check Pods Manifest.lock */,
+				CE7867B623E700FB00F04F5C /* Sources */,
+				CE7867B723E700FB00F04F5C /* Frameworks */,
+				CE7867B823E700FB00F04F5C /* Resources */,
+				0CD236A007313B1F3BDB87B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7867BC23E700FB00F04F5C /* PBXTargetDependency */,
+			);
+			name = narobilUITests;
+			productName = narobilUITests;
+			productReference = CE7867BA23E700FB00F04F5C /* narobilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE78679023E700F900F04F5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Dharmendria;
+				TargetAttributes = {
+					CE78679723E700F900F04F5C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					CE7867AE23E700FB00F04F5C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CE78679723E700F900F04F5C;
+					};
+					CE7867B923E700FB00F04F5C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CE78679723E700F900F04F5C;
+					};
+				};
+			};
+			buildConfigurationList = CE78679323E700F900F04F5C /* Build configuration list for PBXProject "narobil" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE78678F23E700F900F04F5C;
+			productRefGroup = CE78679923E700F900F04F5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE78679723E700F900F04F5C /* narobil */,
+				CE7867AE23E700FB00F04F5C /* narobilTests */,
+				CE7867B923E700FB00F04F5C /* narobilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE78679623E700F900F04F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7867A923E700FB00F04F5C /* LaunchScreen.storyboard in Resources */,
+				CE04F6C123E80BF50071F3AB /* Rubik-Italic.ttf in Resources */,
+				CE04F6C523E80BF50071F3AB /* Rubik-BlackItalic.ttf in Resources */,
+				CE04F6C023E80BF50071F3AB /* Rubik-Regular.ttf in Resources */,
+				CE04F6C223E80BF50071F3AB /* Rubik-LightItalic.ttf in Resources */,
+				CE04F6BF23E80BF50071F3AB /* Rubik-BoldItalic.ttf in Resources */,
+				CE04F6C423E80BF50071F3AB /* Rubik-Bold.ttf in Resources */,
+				CE04F6C823E80BF50071F3AB /* Rubik-MediumItalic.ttf in Resources */,
+				CE04F6C323E80BF50071F3AB /* Rubik-Light.ttf in Resources */,
+				CE04F6C623E80BF50071F3AB /* Rubik-Black.ttf in Resources */,
+				CE04F6C723E80BF50071F3AB /* Rubik-Medium.ttf in Resources */,
+				CE7867A623E700FB00F04F5C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7867AD23E700FB00F04F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7867B823E700FB00F04F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD236A007313B1F3BDB87B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-narobil-narobilUITests/Pods-narobil-narobilUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-narobil-narobilUITests/Pods-narobil-narobilUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-narobil-narobilUITests/Pods-narobil-narobilUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DEF9762F80D217211D368B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-narobil-narobilUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B9B7C0D2CA9707C99A1A430 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-narobil-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7974E2F501EAC7C417415F15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-narobil/Pods-narobil-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-narobil/Pods-narobil-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-narobil/Pods-narobil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81ED02B174D06FB1DC79E65E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-narobilTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE78679423E700F900F04F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7867A423E700F900F04F5C /* narobil.xcdatamodeld in Sources */,
+				CE7867D223E7049C00F04F5C /* UIColor+Extensions.swift in Sources */,
+				CE04F6AE23E7F9960071F3AB /* RegisterViewController.swift in Sources */,
+				CE78679E23E700F900F04F5C /* ViewController.swift in Sources */,
+				CE04F6CA23E80C5F0071F3AB /* UILabel+Extensions.swift in Sources */,
+				CE78679C23E700F900F04F5C /* AppDelegate.swift in Sources */,
+				CE7867CF23E7040500F04F5C /* LoginViewController.swift in Sources */,
+				CE04F6D523E83E2C0071F3AB /* ForgetPassViewController.swift in Sources */,
+				CE04F6CC23E80CA20071F3AB /* UIFont+Extensions.swift in Sources */,
+				CE04F6D723E860200071F3AB /* SendEmailViewController.swift in Sources */,
+				CE04F6CF23E8262A0071F3AB /* ConfrimAkunViewController.swift in Sources */,
+				CE7867CD23E7039B00F04F5C /* OnboardingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7867AB23E700FB00F04F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7867B423E700FB00F04F5C /* narobilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7867B623E700FB00F04F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7867BF23E700FB00F04F5C /* narobilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE7867B123E700FB00F04F5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE78679723E700F900F04F5C /* narobil */;
+			targetProxy = CE7867B023E700FB00F04F5C /* PBXContainerItemProxy */;
+		};
+		CE7867BC23E700FB00F04F5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE78679723E700F900F04F5C /* narobil */;
+			targetProxy = CE7867BB23E700FB00F04F5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE7867A723E700FB00F04F5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7867A823E700FB00F04F5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE7867C123E700FB00F04F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE7867C223E700FB00F04F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7867C423E700FB00F04F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84852431E1F6428F155C3B70 /* Pods-narobil.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5VL7CU44H;
+				INFOPLIST_FILE = narobil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.jatelindo.ios.bil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE7867C523E700FB00F04F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C0E1629BDDF67ECD0F1243 /* Pods-narobil.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5VL7CU44H;
+				INFOPLIST_FILE = narobil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.jatelindo.ios.bil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE7867C723E700FB00F04F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC3864644D24A3EAABCDCEC /* Pods-narobilTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5VL7CU44H;
+				INFOPLIST_FILE = narobilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.jatelindo.ios.narobilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/narobil.app/narobil";
+			};
+			name = Debug;
+		};
+		CE7867C823E700FB00F04F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515898B08314354BBCDCFF35 /* Pods-narobilTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5VL7CU44H;
+				INFOPLIST_FILE = narobilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.jatelindo.ios.narobilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/narobil.app/narobil";
+			};
+			name = Release;
+		};
+		CE7867CA23E700FB00F04F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8519BC7A11B6EF29C00A0A6B /* Pods-narobil-narobilUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5VL7CU44H;
+				INFOPLIST_FILE = narobilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.jatelindo.ios.narobilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = narobil;
+			};
+			name = Debug;
+		};
+		CE7867CB23E700FB00F04F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3C70AD7AE085411CC1DE30 /* Pods-narobil-narobilUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5VL7CU44H;
+				INFOPLIST_FILE = narobilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.jatelindo.ios.narobilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = narobil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE78679323E700F900F04F5C /* Build configuration list for PBXProject "narobil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7867C123E700FB00F04F5C /* Debug */,
+				CE7867C223E700FB00F04F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7867C323E700FB00F04F5C /* Build configuration list for PBXNativeTarget "narobil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7867C423E700FB00F04F5C /* Debug */,
+				CE7867C523E700FB00F04F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7867C623E700FB00F04F5C /* Build configuration list for PBXNativeTarget "narobilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7867C723E700FB00F04F5C /* Debug */,
+				CE7867C823E700FB00F04F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7867C923E700FB00F04F5C /* Build configuration list for PBXNativeTarget "narobilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7867CA23E700FB00F04F5C /* Debug */,
+				CE7867CB23E700FB00F04F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE7867A223E700F900F04F5C /* narobil.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE7867A323E700F900F04F5C /* narobil.xcdatamodel */,
+			);
+			currentVersion = CE7867A323E700F900F04F5C /* narobil.xcdatamodel */;
+			path = narobil.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE78679023E700F900F04F5C /* Project object */;
+}
