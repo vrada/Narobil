@@ -1,0 +1,6 @@
+framework module Pods_narobil_narobilUITests {
+  umbrella header "Pods-narobil-narobilUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
